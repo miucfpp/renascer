@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,22 @@
     <title>Page Renascer</title>
     <link rel="shortcut icon" href="favicon_tocha.ico" type="image/x-icon">
 </head>
+
 <body>
-     Acesse o cronograma <a href="cronograma.html">clicando aqui</a>
+    <p>
+        Acesse o cronograma
+        <a href="cronograma.html">clicando aqui</a>
+    </p>
+    <p><a href="cronograma.pdf" target="_blank"> Baixar o pdf</a></p>
+    <p>
+        Última atualização:
+    <div id="current_date"></div>
+    </p>
+
+
 </body>
+<script>
+    document.getElementById("current_date").innerHTML = Date();
+</script>
+
 </html>
